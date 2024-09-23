@@ -2,6 +2,7 @@ SELECT
     id AS customer_id,
     first_name,
     last_name,
+    CONCAT(first_name,' ',last_name) AS fullname,
     email,
     age,
     gender,

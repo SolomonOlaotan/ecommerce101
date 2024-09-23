@@ -3,7 +3,7 @@ SELECT
     order_id,
     user_id AS customer_id,
     product_id,
-    inventory_item_id AS item_id,
+    inventory_item_id,
     status AS order_item_status,
     DATE(created_at) AS order_item_date,
     DATE(shipped_at) AS order_item_shipped_date,

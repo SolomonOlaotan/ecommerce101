@@ -1,6 +1,6 @@
 SELECT  
     ii.product_id, 
-    ii.date_created, 
+    ii.inventory_date, 
     ii.date_sold,
     COUNT(*) AS total_inventory,
     CASE WHEN date_sold IS NOT NULL THEN 'Yes'
